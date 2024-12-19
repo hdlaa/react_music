@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["node"],
     "target": "es5",
     "lib": ["dom", "es2015"],
     "allowJs": true,
@@ -14,6 +15,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
+    },
+    "compilerOptions": {
+      "resolveJsonModule": true,
+      "esModuleInterop": true
     }
   },
   "include": ["src"]
